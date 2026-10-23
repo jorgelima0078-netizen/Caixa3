@@ -1,0 +1,20 @@
+MINHA PADARIA — versão instalável (PWA)
+
+COMO PUBLICAR NO GITHUB PAGES
+1. Abra o repositório que publica seu site.
+2. Envie estes arquivos para a mesma pasta publicada:
+   - index.html (use exatamente letras minúsculas)
+   - manifest.webmanifest
+   - sw.js
+   - icon-192.png
+   - icon-512.png
+3. Se o repositório já tiver Index.html com I maiúsculo, prefira renomeá-lo para index.html.
+   Evite manter duas versões diferentes do arquivo.
+4. Aguarde o GitHub Pages atualizar e abra o endereço HTTPS do site no Chrome Android.
+5. No Chrome, menu ⋮ > Instalar app (ou “Adicionar à tela inicial”, conforme a versão).
+
+IMPORTANTE
+- O site precisa estar servido por HTTPS, como no GitHub Pages.
+- Se a opção de instalar não aparecer logo após a atualização, recarregue o site e aguarde alguns instantes.
+- Os dados do sistema original são salvos no armazenamento local do navegador (localStorage). Isso não sincroniza automaticamente entre aparelhos e limpar os dados do navegador pode apagar registros.
+- O modo offline pode armazenar a interface, mas a primeira abertura precisa de internet.
